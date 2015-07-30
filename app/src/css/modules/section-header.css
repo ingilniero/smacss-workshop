@@ -1,0 +1,28 @@
+.section-header {
+  background: url('../../../src/images/banner_categories_1280.jpg') no-repeat;
+  display: block;
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+
+.section-header__title {
+  font-size: 55px;
+  display: inline-block;
+  color: white;
+  margin: 0;
+  vertical-align: middle;
+  text-shadow: 1px 1px 0px #222;
+}
+
+.section-header__title > span {
+  color: #e65253;
+}
+
+.section-header:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
