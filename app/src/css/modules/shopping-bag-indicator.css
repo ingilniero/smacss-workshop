@@ -1,0 +1,10 @@
+.shopping-bag-indicator {
+  margin-left: 50px;
+}
+
+.shopping-bag-indicator__icon {
+  background: url('../../../src/images/sprite.png') no-repeat -11px -11px;
+  width: 21px;
+  height: 28px;
+  display: inline-block;
+}

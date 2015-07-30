@@ -1,0 +1,7 @@
+.list__item {
+  text-transform: uppercase;
+}
+
+.list__item > a {
+  text-decoration: none;
+}

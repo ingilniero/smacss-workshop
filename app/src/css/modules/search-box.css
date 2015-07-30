@@ -1,0 +1,24 @@
+.search-box {
+  position: relative;
+  border-bottom: 1px solid #717171;
+}
+
+.search-box__field {
+  width: 280px;
+  height: 20px;
+  border: 0;
+}
+
+.search-box__btn {
+  position: absolute;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  right: 0;
+  top: 0;
+  border: 0;
+  padding: 0;
+  background: url('../../../src/images/sprite.png') no-repeat -12px -56px;
+  width: 19px;
+  height: 19px;
+}

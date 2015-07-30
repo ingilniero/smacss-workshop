@@ -13,7 +13,6 @@
 
 .navbar__item > a {
   color: #717171;
-  text-decoration: none;
 }
 
 .navbar__item:after {

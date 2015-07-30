@@ -1,0 +1,12 @@
+.login-menu {
+  margin-bottom: 20px;
+}
+
+.login-menu__item {
+  float: right;
+  padding: 0 10px;
+}
+
+.login-menu-with-border {
+  border-right: 2px solid #E5E3E3;
+}
