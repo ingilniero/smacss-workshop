@@ -1,0 +1,40 @@
+.shoe-box {
+  background-color: #F5F4F4;
+  width: 150px;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.shoe-box > img {
+  max-width: 100%;
+}
+
+.shoe-box__name {
+  color: #222;
+  font-size: 24px;
+}
+
+.shoe-box__brand {
+  font-size: 18px;
+}
+
+.shoe-box__price {
+  color: #e65253;
+  font-size: 16px;
+}
+
+.shoe-box__new-tag {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background: #F3C972;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.shoe-box__with-tag {
+  position: relative;
+}
