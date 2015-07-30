@@ -1,1 +1,4 @@
-.sidebar { background: #E4E3E3; }
+.sidebar {
+  background: #E4E3E3;
+  padding: 0 15px 0 30px;
+}
