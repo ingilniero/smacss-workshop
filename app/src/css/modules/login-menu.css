@@ -7,6 +7,14 @@
   padding: 0 10px;
 }
 
+.login-menu__item > a {
+  color: #717171;
+}
+
+.login-menu__item-cta > a {
+  color: #e65253;
+}
+
 .login-menu-with-border {
   border-right: 2px solid #E5E3E3;
 }
