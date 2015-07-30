@@ -1,3 +1,7 @@
+.list-inline > li {
+  display: inline-block;
+}
+
 .list__item {
   text-transform: uppercase;
 }

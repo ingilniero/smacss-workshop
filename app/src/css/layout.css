@@ -4,7 +4,7 @@
   min-height: 800px;
 }
 
-.clearfix { overflow: auto; }
+.l-clearfix { overflow: auto; }
 
 .l-left { float: left; }
 
