@@ -8,7 +8,7 @@
 }
 
 .login-menu__item > a {
-  color: #717171;
+  text-transform: uppercase;
 }
 
 .login-menu__item-cta > a {

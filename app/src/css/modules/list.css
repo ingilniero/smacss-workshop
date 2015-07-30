@@ -2,10 +2,7 @@
   display: inline-block;
 }
 
-.list__item {
-  text-transform: uppercase;
-}
-
 .list__item > a {
+  color: #717171;
   text-decoration: none;
 }
