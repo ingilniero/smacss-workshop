@@ -9,6 +9,26 @@
   border: 0;
 }
 
+.search-box__field::-webkit-input-placeholder {
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+}
+
+.search-box__field:-moz-placeholder { /* Firefox 18- */
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+}
+
+.search-box__field::-moz-placeholder {  /* Firefox 19+ */
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+}
+
+.search-box__field:-ms-input-placeholder {
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+}
+
 .search-box__btn {
   position: absolute;
   background-color: red;
