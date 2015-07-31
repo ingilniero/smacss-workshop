@@ -18,3 +18,15 @@
   display: inline-block;
   vertical-align: middle;
 }
+
+.l-vertical-align-container > span {
+	display: inline-block;
+	vertical-align: middle;
+	content: '';	
+}
+
+.l-vertical-align {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}

@@ -1,0 +1,64 @@
+.offers {
+	margin-top: 25px;
+
+}
+
+.offers-discount-offer {
+	border: 2px #C95E5E dotted;
+	padding: 15px;
+	display: flex;
+}
+
+.offers-discount-offer__coupon-container {
+	flex-grow: 1;
+}
+
+.offers-discount-offer__coupon {
+	background: url('../../../src/images/sprite_2.png') no-repeat -14px -15px;
+	width: 70px;
+	height: 70px;
+	position: relative;
+}
+
+.offers-discount-offer__coupon > span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -18px;
+    margin-top: -12px;
+    color: #C95E5E;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.offers-discount-offer__legend {
+	margin: 0 20px;
+	flex-grow: 1;
+}
+
+.offers-discount-offer__legend-question {
+	font-size: 20px;
+}
+
+.offers-discount-offer__legend-answer {
+	font-size: 14px;
+	color: #C95E5E;
+}
+
+.offers-discount-offer__account-btn-container {
+	text-align: right;
+	flex-grow: 2;
+}
+
+.offers-discount-offer__account-btn {
+	width: 230px;
+	border: 3px solid #e65253;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 0;
+	text-transform: uppercase;
+	color: #e65253; 
+	text-decoration: none;
+	font-weight: bold;
+}
+
