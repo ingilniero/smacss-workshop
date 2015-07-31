@@ -47,7 +47,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('serve', ['connect', 'open', 'watch']);
-gulp.task('default', ['serve']);
+gulp.task('default', ['build', 'serve']);
 gulp.task('build', ['js', 'css']);
 
 gulp.task('serveprod', function() {

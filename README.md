@@ -16,7 +16,7 @@ inside the project directory
 
 run:
 
-    npm -g install
+    npm install
 
 ##### Troubleshooting
 The command above should have installed the packages:
@@ -28,7 +28,7 @@ The command above should have installed the packages:
 
 If you you can install them manually by running:
 
-    npm -g install gulp gulp-concat gulp-connect gulp-open
+    npm install gulp gulp-concat gulp-connect gulp-open
 
 ### development
 
@@ -36,3 +36,14 @@ run:
 
     gulp
 
+This will create a dist/ folder inside app/ containing both css/ and js/ concatenated files.
+
+If for any reason, those folders or files are not created, you could manually run:
+
+    gulp css
+
+or
+
+    gulp js
+
+To generate those directories manually.
