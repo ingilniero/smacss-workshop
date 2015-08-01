@@ -18,3 +18,10 @@
 .login-menu-with-border {
   border-right: 2px solid #E5E3E3;
 }
+
+@media screen and (max-width: 768px) {
+  /* tablet para abajo */
+  .login-menu {
+    display: none;
+  }
+}

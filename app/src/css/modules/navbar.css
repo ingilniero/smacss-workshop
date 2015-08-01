@@ -31,3 +31,15 @@
   width: 15px;
   height: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  /* tablet para abajo */
+}
+
+@media screen and (min-width: 768px) {
+  // donde termina tablet y donde empieza desktop para arriba
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  // tablet sin contar telefonos
+}

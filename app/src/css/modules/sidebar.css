@@ -2,3 +2,10 @@
   background: #E4E3E3;
   padding: 0 15px 0 30px;
 }
+
+@media screen and (max-width: 768px) {
+  /* tablet para abajo */
+  .sidebar {
+    display: none;
+  }
+}

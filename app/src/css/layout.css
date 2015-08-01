@@ -30,3 +30,14 @@
 	vertical-align: middle;
 	height: 100%;
 }
+
+@media (max-width: 768px) {
+  .l-col-1-4,
+  .l-col-3-4 {
+    width: 100%;
+  }
+
+  .l-wrap {
+    padding: 10px;
+  }
+}
