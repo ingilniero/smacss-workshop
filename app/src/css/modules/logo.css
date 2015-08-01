@@ -3,3 +3,13 @@
   display: block;
   text-align: center;
 }
+
+.logo-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .logo-mobile {
+    display: inline-block;
+  }
+}
